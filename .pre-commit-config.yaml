@@ -14,7 +14,6 @@ repos:
     -   id: check-json
     -   id: check-yaml
     -   id: debug-statements
-    -   id: detect-aws-credentials
     -   id: detect-private-key
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
@@ -53,4 +52,4 @@ repos:
         args:
         - --ignore-imports=yes
         - -d duplicate-code
-        - --rc-file=./.pylintrc
+        - --rcfile=./.pylintrc
