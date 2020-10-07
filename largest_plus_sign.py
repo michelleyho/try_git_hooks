@@ -71,4 +71,5 @@ class Solution:
                 v = min(up[r][c], down[r][c], left[r][c], right[r][c])
                 maxSeen = max(maxSeen, v)
 
+        print(maxSeen)
         return maxSeen
